@@ -1,11 +1,11 @@
 # Electric Vehicle Classification
 
-# Visão Geral
+## Visão Geral
 
-## Sobre o projeto
+### Sobre o projeto
 Fonte de Dados: [Electric Vehicle Population Data](https://data.wa.gov/Transportation/Electric-Vehicle-Population-Data/f6w7-q2d2)
 
-## Integrantes
+### Autores
 
 <!-- Organizar em ordem alfabética -->
 - [Daniel Rodrigues](https://www.linkedin.com/in/danielrod147/)
@@ -13,4 +13,4 @@ Fonte de Dados: [Electric Vehicle Population Data](https://data.wa.gov/Transport
 - [INTEGRANTE](LINK)
 - [INTEGRANTE](LINK)
 
-# Cronograma
+## Cronograma
