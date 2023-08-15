@@ -9,7 +9,7 @@ Fonte de Dados: [Electric Vehicle Population Data](https://data.wa.gov/Transport
 
 <!-- Organizar em ordem alfabética -->
 - [Daniel Rodrigues](https://www.linkedin.com/in/danielrod147/)
-- [INTEGRANTE](LINK)
+- [João Arthur](https://www.linkedin.com/in/jarthurcs25/)
 - [INTEGRANTE](LINK)
 - [INTEGRANTE](LINK)
 
