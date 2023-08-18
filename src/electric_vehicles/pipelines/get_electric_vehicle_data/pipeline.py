@@ -6,7 +6,8 @@ generated using Kedro 0.18.12
 from kedro.pipeline import Pipeline, pipeline, node
 from .nodes import download_data
 
-def create_pipeline(**kwargs) -> Pipeline:
+
+def download_electric_vehicle_data(**kwargs) -> Pipeline:
     return pipeline(
         [
             node(
@@ -16,7 +17,7 @@ def create_pipeline(**kwargs) -> Pipeline:
                     "save_path": "params:electric_vehicle_data_save_path",
                     },
                 outputs=None,
-                name="download_data",
+                name="download_electric_vehicle_data",
             )
         ]
     )
