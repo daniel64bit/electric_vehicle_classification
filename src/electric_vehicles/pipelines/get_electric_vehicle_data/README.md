@@ -1,21 +1,14 @@
 # Pipeline get_electric_vehicle_data
 
-> *Note:* This is a `README.md` boilerplate generated using `Kedro 0.18.12`.
+## Visão geral
 
-## Overview
-
-<!---
-Please describe your modular pipeline here.
--->
+Pipeline reponsável por fazer o download da base de dados utilizada no projeto.
 
 ## Pipeline inputs
 
-<!---
-The list of pipeline inputs.
--->
+url: url da base de dados
+save_path: caminho onde a base de dados será salva
 
 ## Pipeline outputs
 
-<!---
-The list of pipeline outputs.
--->
+Base de dados salva no caminho especificado
