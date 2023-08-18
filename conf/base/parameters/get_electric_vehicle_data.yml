@@ -1,0 +1,8 @@
+# Parameters config generated for pipeline 'get_electric_vehicle_data'
+# using Kedro 0.18.12.
+#
+# Documentation for this file format can be found in "Parameters"
+# Link: https://docs.kedro.org/en/0.18.12/kedro_project_setup/configuration.html#parameters
+
+electric_vehicle_data_url: https://data.wa.gov/api/views/rpr4-cgyd/rows.csv?accessType=DOWNLOAD
+electric_vehicle_data_save_path: data/01_raw/electric_vehicle_title_and_registration_activity.csv
