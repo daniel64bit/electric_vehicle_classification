@@ -27,8 +27,6 @@ As bibliotecas necessárias para a execução do projeto estão listadas no arqu
 pip install -r src/requirements.txt
 ```
 
-Além disso, é necessário ter a última versão do [geckodriver](https://github.com/mozilla/geckodriver/releases/) em um diretório conhecido. 
-
 ## Como executar o pipeline
 
 Para executar o projeto, utilize o comando:
