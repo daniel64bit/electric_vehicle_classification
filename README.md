@@ -5,11 +5,25 @@
 
 ## Visão Geral
 
-Fonte de dados: [Electric Vehicle Title and Registration Activity
-](https://data.wa.gov/Transportation/Electric-Vehicle-Title-and-Registration-Activity/rpr4-cgyd)
+Os dados utilizados nesse projetos são fornecidos pelo Estado de Wahsington (EUA), por meio de seu portal de dados abertos, [Data.WA.gov](https://data.wa.gov/), com informações de diferentes setores, como educação, transporte e finanças.
 
-## Funcionalidades Principais
+A base de dados escolhida diz respeito a mudanças de titularidade (compra e venda) de carros elétricos em Washington, disponíveis em: [Electric Vehicle Title and Registration Activity
+](https://data.wa.gov/Transportation/Electric-Vehicle-Title-and-Registration-Activity/rpr4-cgyd).
 
+Esse projeto foi gerado utilizando o framework [Kedro](https://docs.kedro.org/en/stable/).
+
+## Objetivos e metas
+- Análise Exploratória:
+  - Tipos de veículos mais vendidos
+  - Autonomia de bateria
+  - Preço de revenda
+  - Localidades com maior rotatividade
+  - Datas com vendas mais intensas
+- Modelo preditivo:
+  - Classificação de carro eficiente segundo sua autonomia; ou
+  - Previsão de preço de venda de veículos
+- Storytelling:
+  - Organização de apresentação simples e objetiva para apresentação de resultados
 
 ## Fluxograma do projeto
 
