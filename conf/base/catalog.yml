@@ -1,4 +1,11 @@
-# Here you can define all your data sets by using simple YAML syntax.
-#
-# Documentation for this file format can be found in "The Data Catalog"
-# Link: https://docs.kedro.org/en/stable/data/data_catalog.html
+electric_vehicle_activity:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/electric_vehicle_title_and_registration_activity.csv
+  load_args:
+    sep: ","
+  save_args:
+    index: False
+
+bev_resale_database:
+  type: pandas.ParquetDataSet
+  filepath: data/03_primary/bev_resale_database.parquet
