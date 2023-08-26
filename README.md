@@ -12,6 +12,10 @@ A base de dados escolhida diz respeito a mudanças de titularidade (compra e ven
 
 Esse projeto foi gerado utilizando o framework [Kedro](https://docs.kedro.org/en/stable/).
 
+### Descritivo dos dados
+![Descritivo](docs/images/database_description.png)
+
+
 ## Objetivos e metas
 - Análise Exploratória:
   - Tipos de veículos mais vendidos
