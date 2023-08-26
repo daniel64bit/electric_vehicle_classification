@@ -5,10 +5,7 @@ generated using Kedro 0.18.12
 import requests
 
 
-def download_data(
-    url: str,
-    save_path: str
-) -> None:
+def download_data(url: str, save_path: str) -> None:
     """
     Função que carrega base de dados de um dado endereço na internet.
     """
@@ -16,7 +13,7 @@ def download_data(
 
     # Verifica se o download foi bem sucedido
     if data.status_code == 200:
-        with open(save_path, 'wb') as f:
+        with open(save_path, "wb") as f:
             f.write(data.content)
     else:
-        print('Erro ao carregar dados.')
+        print("Erro ao carregar dados.")
