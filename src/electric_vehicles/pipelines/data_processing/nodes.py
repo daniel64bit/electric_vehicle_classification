@@ -141,12 +141,6 @@ def generate_bev_resale_database(
     df_bev["SALE_ABOVE_MSRP"] = (
         df_bev["SALE_PRICE"] > df_bev["BASE_MSRP"]
     ).astype("int64")
-    # Códigos para tipo de uso primário
-    df_bev["CD_PRIMARY_USE"] = (
-        df_bev["VEHICLE_PRIMARY_USE"]
-        .astype("category")
-        .cat.codes.astype("int64")
-    )
 
     # Filtrando carros com no mínimo 1 ano de uso
     df_bev = df_bev[df_bev["CAR_AGE"] >= 1].reset_index(drop=True)
