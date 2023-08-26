@@ -1,21 +1,13 @@
 # Pipeline data_processing
 
-> *Note:* This is a `README.md` boilerplate generated using `Kedro 0.18.12`.
+## Visão geral
 
-## Overview
-
-<!---
-Please describe your modular pipeline here.
--->
+Pipeline responsável por extrair transações válidas de revenda de veículos puramente elétricos (removendo híbridos) para desenvolvimento de modelos de previsão de preço de venda.
 
 ## Pipeline inputs
 
-<!---
-The list of pipeline inputs.
--->
+- electric_vehicle_activity (base de dados original)
 
 ## Pipeline outputs
 
-<!---
-The list of pipeline outputs.
--->
+- bev_resale_database (Battery Electric Vehicle Resale Database)
