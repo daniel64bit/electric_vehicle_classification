@@ -1,0 +1,9 @@
+# Parameters config generated for pipeline 'data_science'
+# using Kedro 0.18.12.
+#
+# Documentation for this file format can be found in "Parameters"
+# Link: https://docs.kedro.org/en/0.18.12/kedro_project_setup/configuration.html#parameters
+
+cluster_cols: ['CAR_AGE', 'ELECTRIC_RANGE']
+feature_cols: ['CAR_AGE', 'SALE_MONTH', 'ELECTRIC_RANGE', 'MAKE']
+target_col: 'SALE_PRICE'

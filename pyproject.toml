@@ -1,0 +1,22 @@
+[tool.kedro]
+package_name = "electric_vehicles"
+project_name = "electric_vehicles"
+kedro_init_version = "0.18.12"
+
+[tool.isort]
+profile = "black"
+
+[tool.black]
+line-length = 79
+target-version = ["py37"]
+include = '\.pyi?$'
+
+[tool.pytest.ini_options]
+addopts = """
+--cov-report term-missing \
+--cov src/electric_vehicles -ra"""
+
+[tool.coverage.report]
+fail_under = 0
+show_missing = true
+exclude_lines = ["pragma: no cover", "raise NotImplementedError"]
