@@ -24,12 +24,13 @@ Esse projeto foi gerado utilizando o framework [Kedro](https://docs.kedro.org/en
   - Localidades com maior rotatividade
   - Datas com vendas mais intensas
 - Modelo preditivo:
-  - Classificação de carro eficiente segundo sua autonomia; ou
-  - Previsão de preço de venda de veículos
+  - Previsão de preço de revenda de veículos puramente elétricos
 - Storytelling:
   - Organização de apresentação simples e objetiva para apresentação de resultados
 
 ## Fluxograma do projeto
+
+![Fluxograma](docs/images/fluxograma.png)
 
 ## Regras
 

@@ -1,21 +1,14 @@
 # Pipeline data_science
 
-> *Note:* This is a `README.md` boilerplate generated using `Kedro 0.18.12`.
+## Visão geral
 
-## Overview
-
-<!---
-Please describe your modular pipeline here.
--->
+Modelagem para projeção de preço de revenda de carros puramente elétricos.
 
 ## Pipeline inputs
 
-<!---
-The list of pipeline inputs.
--->
+- bev_resale_database (Base de dados contendo transações de compra e venda de carros elétricos)
 
 ## Pipeline outputs
 
-<!---
-The list of pipeline outputs.
--->
+- resale_price_regressor (Modelo de regressão para previsão de preço de revenda de carros elétricos)
+- prediction_plot (Gráfico para avaliação visual do modelo de regressão, com base em dados de teste)
