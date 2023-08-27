@@ -12,3 +12,7 @@ Modelagem para projeção de preço de revenda de carros puramente elétricos.
 
 - resale_price_regressor (Modelo de regressão para previsão de preço de revenda de carros elétricos)
 - prediction_plot (Gráfico para avaliação visual do modelo de regressão, com base em dados de teste)
+
+## Prediction_plot
+
+![prediction_plot](/docs/images/prediction_plot.png)
