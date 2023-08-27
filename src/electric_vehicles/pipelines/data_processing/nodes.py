@@ -121,6 +121,7 @@ def generate_bev_resale_database(
     # puramente elétricos com quilometragem válida.
     df_bev = normalized_df_vehicles[
         (normalized_df_vehicles["SALE_PRICE"] > 0)
+        & (normalized_df_vehicles["ELECTRIC_RANGE"] > 0)
         & (
             normalized_df_vehicles["CLEAN_ALTERNATIVE_FUEL_VEHICLE_TYPE"]
             == "BATTERY ELECTRIC VEHICLE (BEV)"
