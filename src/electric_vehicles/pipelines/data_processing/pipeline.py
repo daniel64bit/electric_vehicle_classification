@@ -18,9 +18,11 @@ def data_processing_pipeline(**kwargs) -> Pipeline:
             ),
             node(
                 func=generate_bev_resale_database,
-                inputs={"normalized_df_vehicles": "normalized_vehicles_database"},
+                inputs={
+                    "normalized_df_vehicles": "normalized_vehicles_database"
+                },
                 outputs="bev_resale_database",
                 name="generate_bev_resale_database",
-            )
+            ),
         ]
     )
