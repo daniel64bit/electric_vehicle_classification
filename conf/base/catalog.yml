@@ -9,3 +9,18 @@ electric_vehicle_activity:
 bev_resale_database:
   type: pandas.ParquetDataSet
   filepath: data/03_primary/bev_resale_database.parquet
+
+df_bev_wo_outlier:
+  type: pandas.ParquetDataSet
+  filepath: data/03_primary/bev_resale_database_without_outlier.parquet
+
+resale_price_regressor:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/resale_price_regressor.pickle
+  versioned: False
+
+prediction_plot:
+  type: matplotlib.MatplotlibWriter
+  filepath: docs/images/prediction_plot.png
+  save_args:
+    format: png
