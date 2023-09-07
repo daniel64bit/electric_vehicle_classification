@@ -64,3 +64,4 @@ kedro run --pipeline <nome-da-pipeline>
 
 - [Daniel Rodrigues](https://www.linkedin.com/in/danielrod147/)
 - [João Arthur](https://www.linkedin.com/in/jarthurcs25/)
+- [Gabriel Sicari](https://www.linkedin.com/in/gabrielsicari/)
