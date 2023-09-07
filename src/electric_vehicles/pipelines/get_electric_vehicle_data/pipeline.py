@@ -14,9 +14,8 @@ def download_electric_vehicle_data(**kwargs) -> Pipeline:
                 func=download_data,
                 inputs={
                     "url": "params:electric_vehicle_data_url",
-                    "save_path": "params:electric_vehicle_data_save_path",
                 },
-                outputs=None,
+                outputs='electric_vehicle_activity',
                 name="download_electric_vehicle_data",
             )
         ]
