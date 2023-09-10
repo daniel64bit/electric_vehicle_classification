@@ -32,6 +32,10 @@ Esse projeto foi gerado utilizando o framework [Kedro](https://docs.kedro.org/en
 
 ![Fluxograma](docs/images/fluxograma.png)
 
+## Cronograma
+
+![cronograma proj2](https://github.com/daniel64bit/electric_vehicles/assets/100309646/a0c6f2f4-94d5-4888-9bed-fdd2b0aa8768)
+
 ## Regras
 
 - Não remova nenhuma linha do arquivo `.gitignore`
@@ -65,4 +69,5 @@ kedro run --pipeline <nome-da-pipeline>
 - [Daniel Rodrigues](https://www.linkedin.com/in/danielrod147/)
 - [João Arthur](https://www.linkedin.com/in/jarthurcs25/)
 - [Gabriel Sicari](https://www.linkedin.com/in/gabrielsicari/)
+- [Glayson Silva](https://www.linkedin.com/in/glayson-silva-38524890/)
 
