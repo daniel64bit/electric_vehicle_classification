@@ -17,9 +17,9 @@ Modelagem para projeção de preço de revenda de carros puramente elétricos.
 
 ### Métricas
 
-- R2: 0.91
-- MAE: 3715
-- MAPE: 18.57%
+- R2: 0.9
+- MAE: 3853
+- MAPE: 19.26%
 
 ### Gráfico de previsão
 
