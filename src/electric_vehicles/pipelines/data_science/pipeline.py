@@ -20,7 +20,10 @@ def data_science_pipeline(**kwargs) -> Pipeline:
         [
             node(
                 func=remove_sale_and_odometer_outliers,
-                inputs={"df_bev": "bev_resale_database"},
+                inputs={
+                    "df_bev": "bev_resale_database",
+                    "filter_make": "params:filter_make"
+                },
                 outputs="df_bev_wo_outlier",
                 name="remove_sale_and_odometer_outliers",
             ),
