@@ -14,6 +14,11 @@ df_bev_wo_outlier:
   type: pandas.ParquetDataSet
   filepath: data/03_primary/bev_resale_database_without_outlier.parquet
 
+bev_clustering:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/bev_clustering.pickle
+  versioned: False
+
 resale_price_regressor:
   type: pickle.PickleDataSet
   filepath: data/06_models/resale_price_regressor.pickle
