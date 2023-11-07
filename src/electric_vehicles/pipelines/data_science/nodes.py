@@ -56,11 +56,15 @@ def remove_outlier(
 
 def remove_sale_and_odometer_outliers(
     df_bev: pd.DataFrame,
+    filter_make: list
 ) -> pd.DataFrame:
     """
     Remove outliers de preço de revenda venda e
     medições de odômetro.
     """
+
+    # Removendo fabricantes não desejados
+    df_bev = df_bev[~df_bev["MAKE"].isin(filter_make)].copy()
 
     # Outliers de preço de revenda
     df_bev_wo_outlier = remove_outlier(df_bev, "SALE_PRICE", upper_only=True)

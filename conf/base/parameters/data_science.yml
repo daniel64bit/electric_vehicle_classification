@@ -7,3 +7,4 @@
 cluster_cols: ['CAR_AGE', 'ELECTRIC_RANGE']
 feature_cols: ['CAR_AGE', 'SALE_MONTH', 'ELECTRIC_RANGE', 'MAKE']
 target_col: 'SALE_PRICE'
+filter_make: ['PORSCHE', 'AZURE DYNAMICS']
